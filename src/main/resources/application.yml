@@ -1,0 +1,15 @@
+# server port
+server:
+  port: 8080
+
+# database
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/codesoop?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: root
+
+# mybatis
+mybatis:
+  type-aliases-package: com.chipmunk.codesoop
